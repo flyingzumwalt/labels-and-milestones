@@ -15,4 +15,3 @@ deployment:
         branch: master
         commands:
             - npm run sync
-            - npm run release
