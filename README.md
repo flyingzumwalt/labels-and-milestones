@@ -1,3 +1,20 @@
+# labels-and-milestones
+
+> Sync labels and milestones across Github repositories
+
+Labels and milestones are set in `config.yml`. The project is hooked to CI. When a new version of `config.yml` is committed to master, CI will run the sync script automatically.
+
+To run the sync locally, do:
+```
+export GITHUB_TOKEN=token
+npm run lint
+npm run sync
+```
+
+See original README below for details.
+
+---
+
 # Starter Project for github-sync-labels-milestones
 
 This is a project to quickly get started using [Jimdo/github-sync-labels-milestones](https://github.com/Jimdo/github-sync-labels-milestones) for syncing milestones and labels across Github repos, especially using CI.

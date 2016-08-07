@@ -1,68 +1,82 @@
 -   repositories:
-        - <org>/<project>
-        - <org>/<project>
+        - haadcode/orbit
+        - haadcode/orbit-db
+        - haadcode/orbit-db-store
+        - haadcode/orbit-db-kvstore
+        - haadcode/orbit-db-eventstore
+        - haadcode/orbit-db-feedstore
+        - haadcode/orbit-db-counterstore
+        - haadcode/ipfs-log
 
     milestones:
-    -   title: Example closed milestone
-        state: closed
-        description: |
-            Multiline
-            Description
-        due_on: 2024-02-18
-        previousTitles:
-            - Example open milestone
-
-    -   title: Another example open milestone
+    -   title: Fix Orbit
         state: open
-        description: Single line description
-        due_on: 2034-02-18
+        description: |
+            Fix all the things that got broken in the past couple of months and bring together a version that uses both IPFS go and JS implementations.
+        due_on: 2016-08-13
+
+    -   title: Integrate Orbit with uPort
+        state: open
+        description: |
+            Use uPort Identity for Orbit's users.
+        due_on: 2016-09-17
+
+    -   title: Improve Orbit's and orbit-db's documentation and developer experience
+        state: open
+        description: |
+            Write better documentation, write more examples, cleanup and refactor code where needed.
+        due_on: 2016-09-25
+        previousTitles:
+            - Improve Orbit's documentation and developer experience
+
+    -   title: Orbit with IPFS Pubsub
+        state: open
+        description: |
+            Integrate with IPFS Pubsub (if available)
+        due_on: 2016-09-29
 
     labels:
     -   name: bug
-        color: FF6B6B
+        color: d93f0b
 
-    -   name: ci/cd
-        color: 69D2E7
+    -   name: Backlog
+        color: fbca04
 
-    -   name: cleanup
-        color: A7DBD8
+    -   name: Blocked
+        color: 5319e7
 
-    -   name: design/ui
-        color: 4ECDC4
+    -   name: 'Difficulty: Easy'
+        color: fef2c0
 
-    -   name: dev tools
-        color: C3FF68
-        previousNames:
-            - devtools
+    -   name: 'Difficulty: Medium'
+        color: c5def5
+
+    -   name: 'Difficulty: Hard'
+        color: f9d0c4
 
     -   name: duplicate
-        color: FFB7CA
+        color: cccccc
 
     -   name: enhancement
-        color: C0ADDB
+        color: 84b6eb
 
-    -   name: feature
-        color: '556270'
+    -   name: goal
+        color: e99695
+
+    -   name: help wanted
+        color: 15A81A
+
+    -   name: In Progress
+        color: 006b75
 
     -   name: invalid
-        color: FFDABF
+        color: e6e6e6
 
-    -   name: performance
-        color: C7F464
+    -   name: question
+        color: cc317c
 
-    -   name: proposal
-        color: '7786E1'
+    -   name: refactor
+        color: bfdadc
 
-    -   name: security
-        color: FA6900
-
-    -   name: tech debt
-        color: C44D58
-
-    -   name: testing
-        color: 87D69B
-
-    -   name: wont fix
-        color: F4FCE8
-        previousNames:
-            - wontfix
+    -   name: wontfix
+        color: ffffff
