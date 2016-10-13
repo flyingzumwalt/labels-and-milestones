@@ -34,3 +34,6 @@ node_modules
 
 Gemfile.lock
 config.json
+
+# Sublime project files
+*sublime*
