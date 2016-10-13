@@ -82,6 +82,9 @@
     -   name: question
         color: cc317c
 
+    -   name: discussion
+        color: cc317c
+
     -   name: refactor
         color: bfdadc
 
