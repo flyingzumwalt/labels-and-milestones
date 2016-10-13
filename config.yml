@@ -13,7 +13,7 @@
         - haadcode/crdts
         - haadcode/ipfs-post
         - haadcode/go-ipfs-log
-        - haadcode/ipfs-lo
+        - haadcode/ipfs-log
 
     milestones:
     -   title: Fix Orbit
