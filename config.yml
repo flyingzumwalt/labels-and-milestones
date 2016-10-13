@@ -1,22 +1,29 @@
 -   repositories:
         - haadcode/orbit
+        - haadcode/orbit-core
+        - haadcode/orbit-textui
+        - haadcode/orbit-crypto
         - haadcode/orbit-db
         - haadcode/orbit-db-store
         - haadcode/orbit-db-kvstore
         - haadcode/orbit-db-eventstore
         - haadcode/orbit-db-feedstore
         - haadcode/orbit-db-counterstore
-        - haadcode/ipfs-log
+        - haadcode/orbit-db-pubsub
+        - haadcode/crdts
+        - haadcode/ipfs-post
+        - haadcode/go-ipfs-log
+        - haadcode/ipfs-lo
 
     milestones:
     -   title: Fix Orbit
-        state: open
+        state: closed
         description: |
             Fix all the things that got broken in the past couple of months and bring together a version that uses both IPFS go and JS implementations.
         due_on: 2016-08-13
 
     -   title: Integrate Orbit with uPort
-        state: open
+        state: closed
         description: |
             Use uPort Identity for Orbit's users.
         due_on: 2016-09-17
@@ -25,12 +32,12 @@
         state: open
         description: |
             Write better documentation, write more examples, cleanup and refactor code where needed.
-        due_on: 2016-09-25
+        due_on: 2016-11-07
         previousTitles:
             - Improve Orbit's documentation and developer experience
 
     -   title: Orbit with IPFS Pubsub
-        state: open
+        state: closed
         description: |
             Integrate with IPFS Pubsub (if available)
         due_on: 2016-09-29
