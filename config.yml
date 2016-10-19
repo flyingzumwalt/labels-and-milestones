@@ -49,6 +49,9 @@
     -   name: Backlog
         color: fbca04
 
+    -   name: Planned
+        color: fbca04
+
     -   name: Blocked
         color: 5319e7
 
@@ -78,9 +81,6 @@
 
     -   name: invalid
         color: e6e6e6
-
-    -   name: question
-        color: cc317c
 
     -   name: discussion
         color: cc317c
