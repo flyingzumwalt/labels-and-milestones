@@ -16,6 +16,41 @@
         - haadcode/ipfs-log
 
     milestones:
+    # Q4/2016
+    -   title: Distribution Builds
+        state: open
+        description: |
+            Provide downloadable builds for Orbit
+        due_on: 2016-12-23
+
+    -   title: Web version of Orbit
+        state: open
+        description: |
+            Bring Orbit back to the browser with js-ipfs and release a web client.
+        due_on: 2016-12-14
+
+    -   title: Network Enhancing Bots
+        state: open
+        description: |
+            Orbit network will have bots that enchance the performance and functionality of the chat network.
+        due_on: 2016-11-30
+
+    -   title: Product Design
+        state: open
+        description: |
+            Product Design Document for Orbit
+        due_on: 2016-11-16
+
+    # Q3/2016    
+    -   title: Improve documentation and developer experience
+        state: open
+        description: |
+            Write better documentation, write more examples, cleanup and refactor code where needed.
+        due_on: 2016-11-09
+        previousTitles:
+            - Improve Orbit's and orbit-db's documentation and developer experience
+            - Improve Orbit's documentation and developer experience
+
     -   title: Fix Orbit
         state: closed
         description: |
@@ -28,14 +63,6 @@
             Use uPort Identity for Orbit's users.
         due_on: 2016-09-17
 
-    -   title: Improve Orbit's and orbit-db's documentation and developer experience
-        state: open
-        description: |
-            Write better documentation, write more examples, cleanup and refactor code where needed.
-        due_on: 2016-11-07
-        previousTitles:
-            - Improve Orbit's documentation and developer experience
-
     -   title: Orbit with IPFS Pubsub
         state: closed
         description: |
@@ -47,9 +74,6 @@
         color: d93f0b
 
     -   name: Backlog
-        color: fbca04
-
-    -   name: Planned
         color: fbca04
 
     -   name: Blocked
@@ -81,6 +105,9 @@
 
     -   name: invalid
         color: e6e6e6
+
+    -   name: question
+        color: cc317c
 
     -   name: discussion
         color: cc317c
