@@ -1,0 +1,34 @@
+-   repositories:
+        - ipfs/pm
+        - ipfs/ipfs
+        - ipfs/community
+
+    milestones:
+    # Q4/2016
+    -   title: All Q4 Roadmaps Published on github
+        state: open
+        description: |
+            Publish the Q4 Roadmaps for all IPFS-related projects.
+        due_on: 2016-10-28
+
+    -   title: Ratify New Project Management Model
+        state: open
+        description: |
+            This milestone will be done when the new PM model document is stable and ratified by all the IPFS-related projects and when all major IPFS-related Project Roadmaps conform to that New PM Model. See issues status at https://waffle.io/ipfs/pm?milestone=Implement%20New%20Project%20Management%20Model This work will allow us to use the roadmap-generator tool to generate consistently-formatted roadmaps. It will also allow us to assemble our first formal Organization Roadmap.
+        due_on: 2016-11-04
+
+    -   title: First Organization Roadmap
+        state: open
+        description: |
+            The organization roadmap gathers the roadmaps and milestones of all our projects into a consolidated view.
+        due_on: 2016-11-18
+
+    -   title: PM Process Implemented Across all IPFS Projects
+        state: open
+        description: |
+            This milestone will be done when all major IPFS-related Projects are using the Project Management model described in https://github.com/ipfs/pm/blob/master/drafts/Project%20Management%20Process.md
+        due_on: 2016-12-16
+
+    labels:
+    -   name: Blocked
+        color: 990000
