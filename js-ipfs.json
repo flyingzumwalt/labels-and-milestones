@@ -16,13 +16,13 @@
     "milestones": [
       {
         "title": "q4a - js-ipfs on the browser",
-        "state": "open",
+        "state": "closed",
         "description": "This milestone's focus is to ship a version of js-ipfs that can be embed in browser applications, creating an IPFS node inside a browser web application.\n",
         "due_on": "2016-08-30"
       },
       {
         "title": "q4b - Quality and correctness of the JavaScript Implementation",
-        "state": "open",
+        "state": "closed",
         "description": "The focus of this milestone is quality of the JavaScript implementation so that users of the library can build their applications with confidence.\n",
         "due_on": "2016-08-30"
       },
